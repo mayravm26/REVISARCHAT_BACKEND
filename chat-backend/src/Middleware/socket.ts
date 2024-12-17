@@ -14,7 +14,7 @@ export default (app: Application, io: Server) => {
 
     // Manejar la adición de un usuario
     socket.on("addUser", (userData) => {
-        // Llamar a addUser pasando socket como segundo argumento
+        // Llamar a addUser pasando socket como segundo argumentos
         addUser(userData, socket);
       });
 
